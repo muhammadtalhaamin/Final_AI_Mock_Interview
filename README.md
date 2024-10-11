@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## AI_Mock_Interviewer
 
-## Getting Started
+The Full Stack AI Mock Interviewer app is a tool that lets users simulate mock interviews with the help of AI. By combining Next.js, React, Drizzle ORM, Gemini AI, and Clerk, this project provides an interactive experience for developers to practice and refine their interview skills. It's designed to offer hands-on practice and help users prepare for real-world technical interviews.
 
-First, run the development server:
+## Setup
 
+**Installation**
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/0xmetaschool/AI-Mock_Interviewer.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory:
+```bash
+cd code-styler
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. Install dependencies:
+```bash
+npm install
+```
+4. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**Configuration**
 
-## Learn More
+1. Create a .env file in the root directory as `.env.local` with the following environment variables:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=
+NEXT_PUBLIC_DRIZZLE_DB_URL=
+sslmode=
+NEXT_PUBLIC_GEMINI_API_KEY=
+NEXT_PUBLIC_INTERVIEW_QUESTION_COUNT=
+NEXT_PUBLIC_INFORMATION=
+NEXT_PUBLIC_QUESTION_NOTE=
+```
+**Features**
+- **Next.js and React:** It is used to build Robust frontend framework for building scalable web applications.
+- **Clerk Authentication:** It is used to implement social and email/password authentication for secure access.
+- **Tailwind CSS:** Provides utility-first CSS framework for rapid UI development.
+- **Drizzle ORM:** An Efficient database setup solution and querying process.
+- **Google Gemini API:** It generates AI interview questions and processes user responses.
+- **Speech-to-Text:** It converts recorded user answers into text.
+- **Cloud Deployment:** You can easily deploy your application on Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Verification**
+To verify the setup:
 
-## Deploy on Vercel
+1. Open the browser and go to http://localhost:3000.
+2. Ensure the CSS Styler is loading and the live preview works as expected
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Usage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Basic Usage
+
+1. **Authentication:** Users can sign up or log in using social accounts or email/password through Clerk.
+2. **AI Interview Generation:** Generate interview questions using the Google Gemini API.
+3. **Answer Recording:** Users can record their answers using the web interface and their microphone.
+4. **Speech-to-Text:** The app converts spoken answers into text for analysis.
+5. **Save and Review:** Users can save their responses and review them later.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE file](./LICENSE) for details.
+
+
+## Contact
+For support or queries, please join our [Discord server](https://discord.com/invite/vbVMUwXWgc) and ask all relevant questions there.
+
+
+## Feature Wishlist
+- **Interview Customization:** Allow users to customize their mock interviews by selecting the difficulty level, question categories, or specific topics for practice.
+
+-**Payment Integration:** Introduce payment options to limit the number of mock interview trials for non-paying users, while offering unlimited access to premium members.
+
+- **Multilingual Support:** Expand the app to support multiple languages, allowing users to practice interviews in languages other than English.
+
+We encourage community discussion and contributions to these potential features!

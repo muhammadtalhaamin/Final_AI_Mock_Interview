@@ -52,10 +52,10 @@ function Feedback({params}) {
             </CollapsibleTrigger>
             <CollapsibleContent>
                <div className='flex flex-col gap-2'>
-                <h2 className='text-red-500 p-2 border rounded-lg'><strong>Rating:</strong>{item.rating}</h2>
-                <h2 className='p-2 border rounded-lg bg-red-50 text-sm text-red-900'><strong>Your Answer: </strong>{item.userAns}</h2>
-                <h2 className='p-2 border rounded-lg bg-green-50 text-sm text-green-900'><strong>Correct Answer: </strong>{item.correctAns}</h2>
-                <h2 className='p-2 border rounded-lg bg-blue-50 text-sm text-primary'><strong>Feedback: </strong>{item.feedback}</h2>
+                <h2 className='text-black p-2 border rounded-lg'><strong>Rating:</strong>{item.rating}</h2>
+                <h2 className='p-2 border rounded-lg bg-black text-sm text-black'><strong>Your Answer: </strong>{item.userAns}</h2>
+                <h2 className='p-2 border rounded-lg bg-black text-sm text-black'><strong>Correct Answer: </strong>{item.correctAns}</h2>
+                <h2 className='p-2 border rounded-lg bg-black text-sm text-black'><strong>Feedback: </strong>{item.feedback}</h2>
                
                </div>
             </CollapsibleContent>
@@ -64,7 +64,7 @@ function Feedback({params}) {
  
   </>}
         
-        <Button onClick={()=>router.replace('/dashboard')}>Go Home</Button>
+        <Button onClick={()=>router.replace('/dashboard')} variant="outline">Go Home</Button>
     </div>
   )
 }

@@ -37,9 +37,9 @@ function Interview({params}) {
                     <h2 className='text-lg'><strong>Job Description/Tech Stack:</strong>{interviewData?.jobDesc} </h2>
                     <h2 className='text-lg'><strong>Years of Experience:</strong>{interviewData?.jobExperience} </h2>
                 </div>
-                <div className='p-5 border rounded-lg border-yellow-300 bg-yellow-100'>
-                   <h2 className='flex gap-2 items-center text-yellow-500'> <Lightbulb/><strong>Information</strong></h2>
-                    <h2 className='mt-3 text-yellow-500'>{process.env.NEXT_PUBLIC_INFORMATION}</h2>
+                <div className='p-5 border rounded-lg border-black bg-slate-200'>
+                   <h2 className='flex gap-2 items-center text-black'> <Lightbulb/><strong>Information</strong></h2>
+                    <h2 className='mt-3 text-black'>{process.env.NEXT_PUBLIC_INFORMATION}</h2>
                 </div>
             </div>
             <div>
@@ -64,7 +64,7 @@ function Interview({params}) {
         </div>
         <div className='flex justify-end items-end'>
             <Link href={'/dashboard/interview/'+params.interviewId+'/start'}>
-            <Button >Start Interview</Button>
+            <Button variant="outline">Start Interview</Button>
             </Link>
            </div>
 

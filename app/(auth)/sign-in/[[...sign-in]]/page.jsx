@@ -44,7 +44,7 @@ export default function Page() {
       <div className="max-w-xl lg:max-w-3xl">
         <div className="relative -mt-16 block lg:hidden">
           <a
-            className="inline-flex size-16 items-center justify-center rounded-full bg-white text-blue-600 sm:size-20"
+            className="inline-flex size-16 items-center justify-center rounded-full bg-white text-black sm:size-20"
             href="#"
           >
             <span className="sr-only">Home</span>
@@ -66,8 +66,7 @@ export default function Page() {
           </h1>
 
           <p className="mt-4 leading-relaxed text-gray-500">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam dolorum aliquam,
-            quibusdam aperiam voluptatum.
+          Prepare yourself for success with personalized practice sessions that enhance your interview skills and boost your confidence.
           </p>
         </div>
 

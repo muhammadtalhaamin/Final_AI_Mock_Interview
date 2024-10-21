@@ -1,6 +1,6 @@
 ## AI_Mock_Interviewer
 
-The Full Stack AI Mock Interviewer app is a tool that lets users simulate mock interviews with the help of AI. By combining Next.js, React, Drizzle ORM, Gemini AI, and Clerk, this project provides an interactive experience for developers to practice and refine their interview skills. It's designed to offer hands-on practice and help users prepare for real-world technical interviews.
+AI Mock Interviewer app allows users to simulate mock interviews using AI. By integrating Next.js, React, Drizzle ORM, Gemini AI, and Clerk, this offers an interactive platform for users to practice and enhance their interview skills."
 
 ## Setup
 

@@ -49,7 +49,7 @@ https://final-ai-mock-interview.vercel.app/
 
 1. Clone the repository:
     ```bash
-    git clone git clone https://github.com/0xmetaschool/ai-mock-interview.git
+    git clone https://github.com/0xmetaschool/ai-mock-interview.git
     ```
 
 2. Navigate to the project directory:
